@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X1TM | OLD FF TOURNAMENT</title>
+  <meta name="description" content="X1TM Old Free Fire community tournament. Join our Discord and register for upcoming free tournaments.">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:Arial,Helvetica,sans-serif;
+      background:#08090d;color:#fff;line-height:1.6;
+      overflow-x:hidden;
+    }
+    body:before{
+      content:"";position:fixed;inset:0;z-index:-2;
+      background:
+        radial-gradient(circle at 20% 10%,#ff2a2a33,transparent 30%),
+        radial-gradient(circle at 80% 70%,#ff7b0030,transparent 35%),
+        #08090d;
+    }
+    header{
+      position:sticky;top:0;z-index:10;
+      background:#090a0eee;border-bottom:1px solid #ffffff14;
+      backdrop-filter:blur(12px);
+    }
+    nav{
+      max-width:1100px;margin:auto;padding:16px 20px;
+      display:flex;align-items:center;justify-content:space-between;
+    }
+    .logo{font-size:24px;font-weight:900;letter-spacing:2px;color:#ff3b30}
+    .navbtn{
+      text-decoration:none;color:#fff;border:1px solid #ffffff25;
+      padding:9px 15px;border-radius:10px;font-weight:700
+    }
+    main{max-width:1100px;margin:auto;padding:55px 20px}
+    .hero{text-align:center;padding:45px 0 65px}
+    .badge{
+      display:inline-block;background:#ff2f2f18;color:#ff5959;
+      border:1px solid #ff454550;padding:7px 13px;border-radius:999px;
+      font-size:13px;font-weight:800;letter-spacing:1px;margin-bottom:18px
+    }
+    h1{font-size:clamp(42px,9vw,82px);line-height:.95;font-weight:950}
+    h1 span{color:#ff3b30}
+    .hero p{max-width:650px;margin:20px auto;color:#b9bbc4;font-size:17px}
+    .buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:25px}
+    .btn{
+      display:inline-block;text-decoration:none;padding:13px 20px;border-radius:12px;
+      font-weight:900;border:1px solid #ffffff18
+    }
+    .primary{background:#ff3838;color:#fff;box-shadow:0 10px 30px #ff383825}
+    .secondary{background:#15161d;color:#fff}
+    section{margin:35px 0}
+    .section-title{text-align:center;font-size:30px;margin-bottom:22px}
+    .grid{
+      display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px
+    }
+    .card{
+      background:#111219cc;border:1px solid #ffffff12;border-radius:18px;
+      padding:24px;box-shadow:0 15px 45px #0004
+    }
+    .card h3{margin-bottom:7px;color:#fff}
+    .card p{color:#aeb0b9;font-size:14px}
+    .rules li{margin:8px 0;color:#c3c5cc}
+    .rules ul{padding-left:20px}
+    .discord{
+      text-align:center;padding:35px 20px;border-radius:22px;
+      background:linear-gradient(135deg,#171923,#111219);
+      border:1px solid #ffffff14
+    }
+    footer{text-align:center;color:#777b86;padding:30px 20px;border-top:1px solid #ffffff0d;font-size:13px}
+    @media(max-width:600px){
+      nav{padding:13px 15px}.logo{font-size:20px}main{padding:35px 15px}
+      .hero{padding:35px 0 45px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">X1TM</div>
+      <a class="navbtn" href="#rules">RULES</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="badge">OLD FREE FIRE COMMUNITY</div>
+      <h1>OLD FF <span>TOURNAMENT</span></h1>
+      <p>
+        Welcome to the X1TM gaming community. Join upcoming free-entry
+        community tournaments, meet players and stay updated through Discord.
+      </p>
+      <div class="buttons">
+        <a class="btn primary" href="https://discord.gg/dyYsG7rEh" target="_blank" rel="noopener">JOIN DISCORD</a>
+        <a class="btn secondary" href="#details">TOURNAMENT INFO</a>
+      </div>
+    </section>
+
+    <section id="details">
+      <h2 class="section-title">Tournament Info</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>🎮 Game</h3>
+          <p>Old Free Fire community matches.</p>
+        </div>
+        <div class="card">
+          <h3>🆓 Entry</h3>
+          <p>Free-entry community tournament.</p>
+        </div>
+        <div class="card">
+          <h3>📢 Updates</h3>
+          <p>Match announcements and updates are shared in Discord.</p>
+        </div>
+        <div class="card">
+          <h3>🏆 Community</h3>
+          <p>Play fair, follow the rules and enjoy the matches.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="rules">
+      <h2 class="section-title">Rules</h2>
+      <div class="card rules">
+        <ul>
+          <li>No cheating, hacks or unfair tools.</li>
+          <li>Follow the tournament host's instructions.</li>
+          <li>Respect all players and moderators.</li>
+          <li>Match timing and room details will be announced in Discord.</li>
+          <li>Breaking the rules can result in removal from the match.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="discord">
+        <h2>Join the X1TM Discord</h2>
+        <p style="color:#aeb0b9;margin:10px 0 20px">
+          Get tournament announcements, match updates and community news.
+        </p>
+        <a class="btn primary" href="https://discord.gg/dyYsG7rEh" target="_blank" rel="noopener">OPEN DISCORD</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 X1TM • Old FF Community • Made for community gaming
+  </footer>
+</body>
+</html>
